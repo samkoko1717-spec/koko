@@ -1,14 +1,14 @@
 [project]
-name = 'fast-project'
+name = 'KoKo'
 description = ''
 authors = []
 telemetry = true
-cache_dir = './.cache'
+cache_dir = '.\.cache'
 requirements = []
-[contracts.Fastapp]
-path = 'contracts/Fastapp.clar'
+[contracts.Koko]
+path = 'contracts/Koko.clar'
 clarity_version = 3
-epoch = 3.1
+epoch = 'latest'
 [repl.analysis]
 passes = ['check_checker']
 
